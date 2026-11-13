@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>FishGoo spreadsheet guide for shoes, sizing and QC photos</title>
+<meta name="description" content="Use this FishGoo spreadsheet guide to browse ten categories and compare shoe sizing, product links, QC photos and parcel costs before ordering.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="FishGoo spreadsheet guide for shoes, sizing and QC photos">
+<meta property="og:description" content="Browse ten categories and learn what to check before ordering, from seller measurements to warehouse photos.">
+<style>
+:root {
+  color-scheme: light;
+  --paper: #f7f3eb;
+  --ink: #211a18;
+  --muted: #594b45;
+  --wine: #673041;
+  --line: #d9ccc2;
+  --white: #fffdf8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.6 system-ui, sans-serif; }
+main, footer { width: min(100% - 2rem, 72rem); margin: auto; }
+h1, h2, h3, p, figure { margin: 0; }
+h1, h2, h3 { line-height: 1.12; }
+h1, h2 { font-family: Georgia, serif; }
+h1 { font-size: clamp(2.65rem, 7vw, 5.5rem); letter-spacing: -.055em; }
+h2 { font-size: clamp(1.7rem, 4vw, 2.7rem); }
+h3 { font-size: 1.15rem; }
+p { max-width: 66ch; }
+a { color: var(--wine); text-underline-offset: .2em; }
+a:focus-visible, summary:focus-visible { outline: 3px solid #985128; outline-offset: 4px; }
+header, .section, footer { padding-block: 1.5rem; border-bottom: 1px solid var(--line); }
+.hero { display: grid; grid-template-columns: 1.15fr .85fr; gap: 1.5rem; align-items: center; padding-block: 2rem; }
+.hero p, .section > p, article p, details p { margin-top: .65rem; }
+.cta { display: inline-block; margin-top: 1.1rem; padding: .6rem 1rem; background: var(--wine); color: white; border-radius: .3rem; font-weight: 700; }
+.categories, .gallery, .guides { display: grid; gap: .75rem; margin-top: 1rem; }
+.categories { grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 0; list-style: none; }
+.categories a { display: flex; align-items: center; min-height: 3.2rem; height: 100%; padding: .55rem .7rem; background: var(--white); border: 1px solid var(--line); border-radius: .3rem; font-weight: 650; overflow-wrap: anywhere; }
+.gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.guides { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+img { display: block; width: 100%; height: auto; aspect-ratio: 1; object-fit: contain; background: #eee8df; border-radius: .4rem; }
+.hero img { aspect-ratio: 4/3; object-fit: contain; }
+figcaption { margin-top: .45rem; color: var(--muted); font-size: .9rem; }
+article { padding: 1rem; background: var(--white); border: 1px solid var(--line); border-radius: .4rem; }
+article ul { padding-left: 1.2rem; margin: .55rem 0 0; }
+details { padding: .75rem 0; border-bottom: 1px solid var(--line); }
+summary { cursor: pointer; font-weight: 700; }
+footer { color: var(--muted); }
+@media (max-width: 700px) {
+  .hero { grid-template-columns: 1fr; }
+  .categories, .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 420px) {
+  .guides { grid-template-columns: 1fr; }
+}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "FishGoo spreadsheet guide for shoes, sizing and QC photos",
+      "description": "Use this FishGoo spreadsheet guide to browse ten categories and compare shoe sizing, product links, QC photos and parcel costs before ordering.",
+      "inLanguage": "en",
+      "about": ["FishGoo spreadsheet", "Product links", "Shoe sizing", "QC photos", "Parcel costs"]
+    },
+    {
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a FishGoo spreadsheet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A FishGoo spreadsheet is a list of product links organized for browsing and comparison. This independent guide links to HipoBuyFind categories and explains what to check before ordering."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I check FishGoo QC photos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Match the photos to your selected size and color. Look for clear views of labels, seams, soles or hardware, and request a close-up or a measurement photo if a detail is unclear."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I do if a product link is dead?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Search the category again using the model or item description. Compare the variant photos and measurements on the replacement listing before using it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do the photos confirm availability or authenticity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The brand images are editorial references. Check current availability on the listing and seek separate authentication when it matters to your purchase."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/sdllz/">
+</head>
+<body>
+<main>
+<header><a href="https://www.hipobuyfind.com">HipoBuyFind</a></header>
+<section class="hero" aria-labelledby="page-title">
+  <div>
+    <h1 id="page-title">FishGoo spreadsheet</h1>
+    <p>Start with a category, shortlist the right size and color, then check the listing and any available warehouse photos. This independent guide uses the HipoBuyFind catalog as a starting point for browsing.</p>
+    <a class="cta" href="https://www.hipobuyfind.com">Open the HipoBuyFind catalog</a>
+  </div>
+  <figure>
+    <img src="https://i.ebayimg.com/images/g/JiUAAOSwr~ZmyLf~/s-l960.png" width="640" height="480" alt="Side profile of a white Nike Air Force 1 ’07 sneaker" fetchpriority="high">
+    <figcaption>Nike Air Force 1 ’07 · editorial reference</figcaption>
+  </figure>
+</section>
+<section class="section" aria-labelledby="categories">
+  <h2 id="categories">Browse by category</h2>
+  <nav aria-label="Product categories">
+    <ul class="categories">
+      <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Shoes</a></li>
+      <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies/Sweaters</a></li>
+      <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-Shirts</a></li>
+      <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jackets</a></li>
+      <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Pants/Shorts</a></li>
+      <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Headwear</a></li>
+      <li><a href="https://hipobuyfind.com/category-917-Sets.html">Sets</a></li>
+      <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Underwear/underpants</a></li>
+      <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Jersey</a></li>
+      <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessories</a></li>
+    </ul>
+  </nav>
+</section>
+<section class="section" aria-labelledby="references">
+  <h2 id="references">Style references</h2>
+  <p>Use these brand examples to identify the silhouettes, materials and finishes you want to compare.</p>
+  <div class="gallery">
+    <figure>
+      <img src="https://cdn.whatsonthestar.com/uploads/1751374983287.jpeg" width="360" height="360" alt="Light-wash Louis Vuitton Monogram denim jacket worn over a lavender shirt" loading="lazy" decoding="async">
+      <figcaption>Louis Vuitton Monogram denim jacket</figcaption>
+    </figure>
+    <figure>
+      <img src="https://media.gucci.com/style/DarkGray_Center_0_0_490x490/1781886629/875733_3HBMD_9664_001_100_0000_Light-gg-cotton-canvas-baseball-hat.jpg" width="490" height="490" alt="Beige and dark brown Gucci GG cotton canvas baseball cap" loading="lazy" decoding="async">
+      <figcaption>Gucci GG canvas cap</figcaption>
+    </figure>
+    <figure>
+      <img src="https://kream-phinf.pstatic.net/MjAyNTA3MzFfNzAg/MDAxNzUzODk4MTE1MjI3.WHGujKqNd9mT7aHEnAwoupW_atTkD6iQczFjUwc4HVMg.QIMaa4Wt7_-kLRs4KpRV-NQhSMFSfTE8Ggprf8CyWYwg.PNG/a_2fba6b33de3f40fc847572fc7a5614b4.png" width="360" height="360" alt="Hermès Clic H bracelet with orange enamel and gold-tone hardware" loading="lazy" decoding="async">
+      <figcaption>Hermès Clic H bracelet</figcaption>
+    </figure>
+    <figure>
+      <img src="https://kream-phinf.pstatic.net/MjAyNjA0MDlfMTg5/MDAxNzc1NzEzNzUzMTMy.E0wvdkidLCFxdURFqU4ptkrRMRwRJP5gcM-JckGQHnUg.j3FdcmYH-CmEpR1v-yPXAPeuFmu2qbExakWFNa1tjdsg.PNG/a_e4b0d4ec65d94c8c856ba833dbcd9f6f.png" width="360" height="360" alt="Silver-finish Dior Clair D Lune bracelet with white crystals" loading="lazy" decoding="async">
+      <figcaption>Dior Clair D Lune bracelet</figcaption>
+    </figure>
+  </div>
+</section>
+<section class="section" aria-labelledby="guides">
+  <h2 id="guides">What to check before ordering</h2>
+  <div class="guides">
+    <article>
+      <h3>FishGoo shoe finds</h3>
+      <p>Start with a low-top sneaker listing or another silhouette you already wear. Check the product model and selected colorway against the variant shown in the seller photos.</p>
+      <ul>
+        <li>Measure both feet in centimeters and use the longer measurement for the shoe size chart.</li>
+        <li>Ask for an insole length photo if the seller’s EU shoe size conversion is unclear.</li>
+        <li>Compare the toe-box shape and outsole tread in side and underside photos.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>FishGoo size guide</h3>
+      <p>Lay a garment that fits you flat. Compare it with the seller’s garment measurements using the same measuring points and units.</p>
+      <ul>
+        <li>For hoodies and tees, compare chest width, shoulder width and body length.</li>
+        <li>For denim jackets, check sleeve length and allow room for a layer.</li>
+        <li>For pants, compare the flat waistband width, inseam and front rise.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>FishGoo QC photos</h3>
+      <p>QC means quality control. Use warehouse inspection photos of the selected item to check details that are hard to see in the listing.</p>
+      <ul>
+        <li>Ask for a natural-light color photo if the fabric looks different across images.</li>
+        <li>Request cap embroidery close-ups or a clear photo of the bracelet clasp.</li>
+        <li>Check seam alignment and ask for a ruler photo if a measurement matters.</li>
+      </ul>
+    </article>
+    <article>
+      <h3>FishGoo shipping checklist</h3>
+      <p>Write down the item subtotal, local delivery fee, service fee and international shipping quote in one currency. Check what the quote includes for your destination.</p>
+      <ul>
+        <li>Record packed parcel weight and carton dimensions before comparing shipping lines.</li>
+        <li>Ask whether the carrier uses actual weight or volumetric weight.</li>
+        <li>Check whether shoe-box removal is available and how it affects the package.</li>
+      </ul>
+    </article>
+  </div>
+</section>
+<section class="section" aria-labelledby="faq">
+  <h2 id="faq">Frequently asked questions</h2>
+  <details open>
+    <summary>What is a FishGoo spreadsheet?</summary>
+    <p>A FishGoo spreadsheet is a list of product links organized for browsing and comparison. This independent guide links to HipoBuyFind categories and explains what to check before ordering.</p>
+  </details>
+  <details>
+    <summary>How do I check FishGoo QC photos?</summary>
+    <p>Match the photos to your selected size and color. Look for clear views of labels, seams, soles or hardware, and request a close-up or a measurement photo if a detail is unclear.</p>
+  </details>
+  <details>
+    <summary>What should I do if a product link is dead?</summary>
+    <p>Search the category again using the model or item description. Compare the variant photos and measurements on the replacement listing before using it.</p>
+  </details>
+  <details>
+    <summary>Do the photos confirm availability or authenticity?</summary>
+    <p>The brand images are editorial references. Check current availability on the listing and seek separate authentication when it matters to your purchase.</p>
+  </details>
+</section>
+</main>
+<footer><p>Independent shopping guide · <a href="https://www.hipobuyfind.com">Visit HipoBuyFind</a></p></footer>
+</body>
+</html>
